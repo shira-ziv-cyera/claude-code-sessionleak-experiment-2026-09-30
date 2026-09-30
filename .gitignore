@@ -18,3 +18,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
