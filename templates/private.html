@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Private document</title></head>
+<body>
+  <h1 data-testid="private-heading">Private document</h1>
+  <p>Signed in as <span data-testid="username">{{ user }}</span>. <a href="{{ url_for('logout') }}">Log out</a></p>
+  <pre data-testid="private-doc">{{ doc }}</pre>
+</body>
+</html>
